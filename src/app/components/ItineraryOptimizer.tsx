@@ -65,14 +65,16 @@ export function ItineraryOptimizer({ onNavigate, onBack }: ItineraryOptimizerPro
           <ArrowLeft className="size-5 text-primary" />
         </button>
 
-        <div>
-          <h1 className="text-lg text-primary">
-            AI Itinerary Optimizer
-          </h1>
-
-          <p className="text-xs text-muted-foreground">
-            Plan your perfect journey
-          </p>
+        <div className="flex items-center gap-2 min-w-0 flex-1">
+          <img src="/logo.png" alt="" className="size-9 shrink-0 object-contain" aria-hidden />
+          <div className="min-w-0">
+            <h1 className="text-lg text-primary truncate">
+              AI Itinerary Optimizer
+            </h1>
+            <p className="text-xs text-muted-foreground">
+              Plan your perfect journey
+            </p>
+          </div>
         </div>
       </div>
 

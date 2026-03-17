@@ -125,8 +125,11 @@ export function DiscoveryDashboard({ onNavigate }: DiscoveryDashboardProps) {
       </div>
 
       <div className="bg-white rounded-t-3xl shadow-2xl p-4 space-y-4 max-h-[45%] overflow-y-auto pb-20">
-        <div className="flex items-center justify-between mb-2">
-          <h2 className="text-lg text-primary">Discover Hidden Gems</h2>
+        <div className="flex items-center justify-between mb-2 gap-2">
+          <div className="flex items-center gap-2 min-w-0">
+            <img src="/logo.png" alt="" className="size-8 shrink-0 object-contain" aria-hidden />
+            <h2 className="text-lg text-primary truncate">Discover Hidden Gems</h2>
+          </div>
           <button
             onClick={() => setAntigravityMode(!antigravityMode)}
             className={`px-4 py-2 rounded-full text-xs transition-colors ${

@@ -58,8 +58,8 @@ export function Onboarding({ onComplete }: OnboardingProps) {
 
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 shadow-2xl">
             <div className="space-y-4">
-              <div className="size-16 mx-auto bg-[#3A7CA5] rounded-full flex items-center justify-center">
-                <span className="text-2xl">🌿</span>
+              <div className="size-20 mx-auto rounded-full flex items-center justify-center overflow-hidden bg-black/30 ring-2 ring-white/20">
+                <img src="/logo.png" alt="LakbAI" className="size-14 object-contain" />
               </div>
               <h2 className="text-xl">{slide.principle}</h2>
               <p className="text-[#E8E1D4]/90 text-sm leading-relaxed">{slide.description}</p>
